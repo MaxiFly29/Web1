@@ -12,20 +12,20 @@
     font-size: larger;
     display: grid;
     grid-template-areas:
-		"head head head"
         "leftBar main rightBar"
         "lilLeft main rightBar"
         "foot foot rightBar";
     grid-template-columns: 0.5fr 2fr 0.5fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 header {
     background-color: rgb(198, 217, 241);
-    grid-area: head;
     display: grid;
     grid-template-columns: 2fr 1fr;
+
     align-items: center;
+	font-size: larger
 }
 
 .innerHeader{
@@ -98,7 +98,6 @@ footer {
     </style>
 </head>
 
-<div class="container">
 <body>
 <header>
     <p class="footerText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, corrupti? Pol, a bene acipenser. Passion, amnesty,
@@ -109,6 +108,7 @@ footer {
             <h3 class="inner">It is an ancient honor, sir. Epos, olla, et rector.  </h3>
     </span>
 </header>
+<div class="container">
     <nav class="leftBar">
         <ul>
             <li><a href="index.html">Page1</a></li>
